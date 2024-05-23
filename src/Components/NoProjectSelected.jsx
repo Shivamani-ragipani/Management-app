@@ -9,7 +9,7 @@ export default function NoProjectSelected({onSelectedAddProject}){
                 No Project Selected
             </h2>
             <p className='text-stone-400 mb-4'>
-                Select a Project or get started with new one
+                Select a Project or get started with new one 
             </p>
             <p className='mt-8'>
                 <Button onClick={onSelectedAddProject}>
