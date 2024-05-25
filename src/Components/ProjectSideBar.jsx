@@ -12,10 +12,10 @@ export default function ProjectSideBar({onSelectedAddProject, projects, onSelect
             </Button>
             <ul className="mt-4 rounded-md">  
                 {projects.map(project => {
-                    let cssClasses = "w-full text-left pl-2 py-2 rounded-md rounded-sm my-1 text-white-400 hover:text-blue-200 hover:bg-blue-800"
+                    let cssClasses = "w-full text-left mt-2 pl-2 py-2 rounded-md rounded-sm my-1 text-white-400 hover:text-blue-200 hover:bg-blue-800"
 
                     if(project.id === selectedProjectId){
-                        cssClasses += "text-blue-200 bg-blue-800";
+                        cssClasses += "text-blue-200 bg-blue-700";
                     } else {
                         cssClasses += "text-blue-400";
                     }

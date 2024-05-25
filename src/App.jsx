@@ -58,7 +58,7 @@ function App() {
     });
 
   }
-
+  
   function HandleAddProject(){
     setProjectsState(prevState => {
       return {
